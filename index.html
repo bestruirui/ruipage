@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/page.png">
+	<title>小瑞</title>
+	<link rel="apple-touch-icon-precomposed" href="images/page.png">
+	<link rel="stylesheet" type="text/css" href="css/h.9c69ed6c.css">
+	<link rel="stylesheet" type="text/css" href="css/rui_fonts.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137340638-1"></script>
+	
+	<script>
+		function a() {
+			dataLayer.push(arguments)
+		}
+		window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-137340638-1");
+	</script>
+	
+	<script>
+		function myFunction(){
+			alert("页面加载完成");
+		}
+	</script>
+</head>
+
+<body >
+	<body onContextMenu="alert('这是一条通知'); return false"
+		NOOP="if (window.event != null && window.event.button == 2) alert ('Thanks...');">
+
+		<body data-phone-cc-input="1">
+			<body>
+				<div class="background">
+					<canvas id="startrack"></canvas>
+					<div class="cover"></div>
+				</div>
+				<div class="main">
+					<div class="ch intro">
+						<div class="container">
+							<div class="hello">
+								<h1 id="slogan">思考中...</h1>
+								<h2>
+									<div class="circle"> <span></span> <span></span>
+										<span></span>
+									</div>小瑞
+								</h2>
+							</div>
+						</div>
+					</div>
+					<div class="ch about">
+						<div class="container">
+							<h2 class="chtitle">I am <span>小瑞</span>!</h2>
+							<div class="clear">
+								<div class="introduct">
+									<img class="avatar"
+										src="images/page.png">
+									<!-- <P style="padding-top:1em;">坚硬的代替了那些柔软的，清晰的取代了那些模糊的。那些滑溜溜和黏糊糊的东西，带你来到了世界的角落。</p>
+									<br> -->
+									<p>
+										你好，这里是小瑞。
+									</p> 
+									  <br>
+									<p>
+										一望无际的迷雾中，有人在寻找光明！很高兴遇到你，我们一直在耕耘这么一片简单的土壤，虽然没有尽善尽美，但以初见雏形。<br>
+										<br>十年前我们仰望星空，十年后我们将俯视大地，未来的天空，必将为我们留下一片灿烂的曙光！
+									</p>
+									<div class="chatbox">
+										<div class="line loading"> <span></span>
+											<span></span> <span></span>
+										</div>
+									</div>
+								</div>
+								<ul class="skill clear">
+									<li>
+										<p>设计能力</p>
+										<div class="progress">
+											<div style="width:50%;">
+											</div><span>让自己舒服程度的能力</span>
+										</div>
+									</li>
+									<li>
+										<p>洞察</p>
+										<div class="progress">
+											<div style="width:60%;"></div>
+											<span>观测世界程度的能力</span>
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="find ch">
+						<div class="container links">
+							<h2 class="chtitle">小瑞出没的<span>地方</span></h2>
+							 <div class="clear"> 
+
+								<a>
+									<div class="item"id="myImg">
+										 <div class="bg" style="background-color:#03d96a"></div>
+										 <div class="inner"><i class="icon-weixin"></i><span>微信 </span></div>
+									</div>
+									
+									<div id="myModal" class="modal">
+										<span class="close">×</span>
+										<img class="modal-content" id="img01">
+										<div id="caption"></div>
+									</div>
+									<script>
+										document.getElementById('myImg').onclick = function()
+										{
+											document.getElementById('myModal').style.display = "block";
+											document.getElementById("img01").src = "images/wechatQR.png";
+											document.getElementById("caption").innerHTML ="微信";
+										}
+									    document.getElementsByClassName("close")[0].onclick = function() 
+										{ 
+											document.getElementById('myModal').style.display = "none";
+										}
+								    </script>
+							    </a>
+							
+								<a>
+									<div class="item" id="ruimyImg">
+										<div class="bg" style="background-color:#e82020"></div>
+										<div class="inner"><i class="icon-QQ"></i> <span>QQ</span> </div>
+									</div>
+									<div id="ruimyModal" class="ruimodal">
+										<span class="ruiclose">×</span>
+										<img class="ruimodal-content" id="ruiimg01">
+										<div id="ruicaption"></div>
+									</div>
+									<script>
+										document.getElementById('ruimyImg').onclick = function()
+										{
+											document.getElementById('ruimyModal').style.display = "block";
+											document.getElementById("ruiimg01").src = "images/QQQR.png";
+											document.getElementById("ruicaption").innerHTML ="QQ";
+										}
+										document.getElementsByClassName("ruiclose")[0].onclick = function() 
+										{ 
+											document.getElementById('ruimyModal').style.display = "none";
+										}
+								    </script>
+							    </a>
+
+							    <a href="https://hub.fastgit.xyz/bestruirui" target="_blank">
+									<div class="item">
+										<div class="bg" style="background-color:#000000"></div>
+										<div class="inner"> <i class="icon-github-fill"></i> <span>Github</span> </div>
+									</div>
+								</a>
+									
+								<a href="https://space.bilibili.com/483203169"target="_blank">
+									<div class="item">
+										<div class="bg" style="background-color:#f9a2a8"></div>
+										<div class="inner"> <i class="icon-bilibili-line"></i><span>Bilibili</span></div>
+									</div>
+								</a>
+	
+							 </div> 
+						</div>
+					</div> 
+					
+					<div class="gate ch"> 
+						<div class="container links"> 
+						   <h2 class="chtitle">小瑞的<span>小伙伴</span>们</h2> 
+						   <div class="clear"> 
+							   <a href="https://bestruirui.github.io/" target="_blank">
+									<div class="item">
+										<div class="avatar"> 
+											<img src="images/touxiang.png">
+										</div>
+										<div class="inner">
+											<h5>小瑞</h5>
+											<p>我的博客网站</p>
+										</div>
+									</div>
+							   </a> 
+						   </div> 
+						</div>
+					</div>
+				</div>
+
+				<div class="footer ch">
+					<div class="container">
+						<h3>小瑞在努力</h3>
+						<!-- <p>蘑菇森林的尽头，新世界的起点</p> -->
+						<p class="c">@bestxiaorui</p>
+					</div>
+				</div>
+		
+				<script src="js/page.3a0791a3.js"></script>
+				<script type="text/javascript" src="js/stats.js" charset="UTF-8"></script>
+				
+
+				<!-- <audio autoplay>
+					<source src="https://api.uomg.com/api/rand.music?sort=热歌榜" type="audio/mpeg">
+				</audio> -->
+
+			</body>
+		</body>
+	</body>
+</body>
+
+</html>
